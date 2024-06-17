@@ -62,27 +62,12 @@
         <finalName>devops-integration</finalName>
     </build>
     
-    <repositories>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Releases</name>
-            <url>http://3.108.254.192:8081/repository/maven-releases/</url>
-        </repository>
-    </repositories>
-    
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus-public</id>
-            <name>Nexus Plugins</name>
-            <url>http://3.108.254.192:8081/repository/maven-public/</url>
-        </pluginRepository>
-    </pluginRepositories>
     
     <distributionManagement>
         <repository>
             <id>maven-releases</id>
             <name>maven-releases</name>
-            <url>http://localhost:8081/repository/maven-releases/</url>
+            <url></url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
